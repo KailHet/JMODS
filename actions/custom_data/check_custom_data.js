@@ -39,7 +39,6 @@ module.exports = {
   },
 
   subtitle(data, presets) {
-    console.log(JSON.stringify(presets, undefined, 4))
     return `${presets.getConditionsText(data)}`;
   },
 
